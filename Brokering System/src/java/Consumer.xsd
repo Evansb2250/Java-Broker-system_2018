@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<xsd:schema version="1.0"
+            xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+            targetNamespace="http://xml.netbeans.org/schema/Consumer"
+            xmlns:tns="http://xml.netbeans.org/schema/Consumer"
+            elementFormDefault="qualified">
+     
+    <xsd:complexType name="userID">
+        <xsd:sequence>
+            <xsd:element name="userName" type="xsd:string"></xsd:element>
+            <xsd:element name="password" type="xsd:string"></xsd:element>
+            <xsd:element name="loggedOn" type="xsd:boolean" default="false"></xsd:element>
+            <xsd:element name="myShare" type="tns:listOfShares"></xsd:element>
+        </xsd:sequence>                        
+    </xsd:complexType>
+    
+    <xsd:complexType name="companyShare">
+        <xsd:sequence>
+            <xsd:element name="companyName" type="xsd:string"></xsd:element>
+            <xsd:element name="quantity" type="xsd:int"></xsd:element>
+        </xsd:sequence>                        
+    </xsd:complexType>
+    
+    
+    <xsd:complexType name="listOfShares">
+        <xsd:sequence>
+            <xsd:element name="shareList" type="tns:companyShare" minOccurs="0" maxOccurs="unbounded"></xsd:element>
+        </xsd:sequence>                        
+    </xsd:complexType>
+    
+    
+    
+    <xsd:element name="listOfUserIDs">
+    <xsd:complexType>
+        <xsd:sequence>
+            <xsd:element name="userList" type="tns:userID" minOccurs="0" maxOccurs="unbounded"></xsd:element>
+        </xsd:sequence>                        
+    </xsd:complexType>
+    </xsd:element>
+    
+</xsd:schema>

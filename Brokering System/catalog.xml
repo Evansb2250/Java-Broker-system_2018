@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="file:/Z:/Brokering%20System/shared.xml" uri="src/conf/xml-resources/jaxb/request/shared.xml.xsd"/>
+    <system systemId="file:/Z:/Brokering%20System/sharesSchema.xsd" uri="src/conf/xml-resources/jaxb/Request/sharesSchema.xsd"/>
+    <system systemId="file:/Z:/Brokering%20System/src/java/SharesSchema.xml" uri="src/conf/xml-resources/jaxb/ShareRequest/SharesSchema.xml.xsd"/>
+    <system systemId="file:/Z:/Brokering%20System/src/java/sharesSchema.xsd" uri="src/conf/xml-resources/jaxb/RequestShares/sharesSchema.xsd"/>
+    <system systemId="file:/Z:/Brokering%20System/build/web/WEB-INF/classes/sharesSchema.xsd" uri="src/conf/xml-resources/jaxb/RequestShare/sharesSchema.xsd"/>
+    <system systemId="file:/E:/Cloud/Brokering%20System/src/java/userAccount.xsd" uri="src/conf/xml-resources/jaxb/UserAccount/userAccount.xsd"/>
+    <system systemId="file:/E:/Cloud/Brokering%20System/sharesSchema.xsd" uri="src/conf/xml-resources/jaxb/RequestShare/sharesSchema.xsd"/>
+    <system systemId="file:/E:/Cloud/Brokering%20System/src/java/UserAccount.xsd" uri="src/conf/xml-resources/jaxb/accountInformation/UserAccount.xsd"/>
+    <system systemId="file:/E:/Cloud/Brokering%20System/src/java/sharesSchema.xsd" uri="src/conf/xml-resources/jaxb/RequestShare/sharesSchema.xsd"/>
+    <system systemId="file:/E:/Cloud/Brokering%20System/src/java/account.xsd" uri="src/conf/xml-resources/jaxb/customer/account.xsd"/>
+    <system systemId="file:/E:/Cloud/Brokering%20System/src/java/Consumer.xsd" uri="src/conf/xml-resources/jaxb/ConsumerInfo/Consumer.xsd"/>
+</catalog>

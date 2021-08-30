@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Available_Shares xmlns="http://xml.netbeans.org/schema/sharesSchema">
+    <sharesCollection symbol="AMZ">
+        <companyname>Amazon</companyname>
+        <shareAmount>11</shareAmount>
+        <shares>
+            <Price>23.22</Price>
+            <last-update>2019-01-03Z</last-update>
+            <currency>USD</currency>
+        </shares>
+    </sharesCollection>
+    <sharesCollection symbol="GGLE">
+        <companyname>Google</companyname>
+        <shareAmount>2</shareAmount>
+        <shares>
+            <Price>893.22</Price>
+            <last-update>2019-01-21Z</last-update>
+            <currency>USD</currency>
+        </shares>
+    </sharesCollection>
+    <sharesCollection symbol="Tkstr">
+        <companyname>TeckStar</companyname>
+        <shareAmount>68</shareAmount>
+        <shares>
+            <Price>49.22</Price>
+            <last-update>2019-01-22Z</last-update>
+            <currency>AED</currency>
+        </shares>
+    </sharesCollection>
+    <sharesCollection symbol="LLDs">
+        <companyname>lloyds Banking</companyname>
+        <shareAmount>2009</shareAmount>
+        <shares>
+            <Price>130.23</Price>
+            <last-update>2019-01-23Z</last-update>
+            <currency>RON</currency>
+        </shares>
+    </sharesCollection>
+    <sharesCollection symbol="SMG">
+        <companyname>Samsung Group</companyname>
+        <shareAmount>2920</shareAmount>
+        <shares>
+            <Price>370.54</Price>
+            <last-update>2019-01-22Z</last-update>
+            <currency>EGP</currency>
+        </shares>
+    </sharesCollection>
+    <sharesCollection symbol="SBC">
+        <companyname>SABIC</companyname>
+        <shareAmount>993</shareAmount>
+        <shares>
+            <Price>600.32</Price>
+            <last-update>2018-12-31Z</last-update>
+            <currency>TRY</currency>
+        </shares>
+    </sharesCollection>
+</Available_Shares>

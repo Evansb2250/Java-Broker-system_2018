@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='UTF-8'?><!-- Published by JAX-WS RI (http://jax-ws.java.net). RI's version is Metro/2.4.0 (wsit240-7e98ff4; 2017-08-03T21:19:54+0200) JAXWS-RI/2.3.0 JAXWS-API/2.3.0 JAXB-RI/2.3.0 JAXB-API/2.3.0 svn-revision#unknown. --><xs:schema xmlns:tns="http://BrokerFunctions/" xmlns:ns2="http://xml.netbeans.org/schema/sharesSchema" xmlns:ns1="http://xml.netbeans.org/schema/Consumer" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0" targetNamespace="http://BrokerFunctions/">
+
+<xs:import namespace="http://xml.netbeans.org/schema/Consumer" schemaLocation="http://localhost:8080/BrokerSystemFunctions/BrokerSystemFunctions?xsd=2"/>
+
+<xs:import namespace="http://xml.netbeans.org/schema/sharesSchema" schemaLocation="http://localhost:8080/BrokerSystemFunctions/BrokerSystemFunctions?xsd=1"/>
+
+<xs:element name="LogOut" type="tns:LogOut"/>
+
+<xs:element name="LogOutResponse" type="tns:LogOutResponse"/>
+
+<xs:element name="Login" type="tns:Login"/>
+
+<xs:element name="LoginResponse" type="tns:LoginResponse"/>
+
+<xs:element name="Sign_up" type="tns:Sign_up"/>
+
+<xs:element name="Sign_upResponse" type="tns:Sign_upResponse"/>
+
+<xs:element name="buyShares" type="tns:buyShares"/>
+
+<xs:element name="buySharesResponse" type="tns:buySharesResponse"/>
+
+<xs:element name="getCompanienames" type="tns:getCompanienames"/>
+
+<xs:element name="getCompanienamesResponse" type="tns:getCompanienamesResponse"/>
+
+<xs:element name="getUserDetails" type="tns:getUserDetails"/>
+
+<xs:element name="getUserDetailsResponse" type="tns:getUserDetailsResponse"/>
+
+<xs:element name="sellStock" type="tns:sellStock"/>
+
+<xs:element name="sellStockResponse" type="tns:sellStockResponse"/>
+
+<xs:complexType name="getUserDetails">
+<xs:sequence>
+<xs:element name="userName" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getUserDetailsResponse">
+<xs:sequence>
+<xs:element name="return" type="ns1:userID" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="LogOut">
+<xs:sequence>
+<xs:element name="userName" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="LogOutResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:boolean" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="Login">
+<xs:sequence>
+<xs:element name="userName" type="xs:string" minOccurs="0"/>
+<xs:element name="password" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="LoginResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:boolean" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="buyShares">
+<xs:sequence>
+<xs:element name="userName" type="xs:string" minOccurs="0"/>
+<xs:element name="companyName" type="xs:string" minOccurs="0"/>
+<xs:element name="amount" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="buySharesResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:boolean"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="Sign_up">
+<xs:sequence>
+<xs:element name="userName" type="xs:string" minOccurs="0"/>
+<xs:element name="password" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="Sign_upResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:boolean" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getCompanienames">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="getCompanienamesResponse">
+<xs:sequence>
+<xs:element name="return" type="ns2:Company" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="sellStock">
+<xs:sequence>
+<xs:element name="userName" type="xs:string" minOccurs="0"/>
+<xs:element name="companyName" type="xs:string" minOccurs="0"/>
+<xs:element name="amount" type="xs:int"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="sellStockResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:boolean" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+</xs:schema>

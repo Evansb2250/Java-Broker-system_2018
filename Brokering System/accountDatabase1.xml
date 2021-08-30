@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Available_Shares xmlns="http://xml.netbeans.org/schema/sharesSchema">
+    <sharesCollection symbol="AMZ">
+        <companyname>Amazon</companyname>
+        <shareAmount>500</shareAmount>
+        <shares>
+            <Price>23.22</Price>
+            <last-update>2001-06-22+01:00</last-update>
+            <currency>USD</currency>
+        </shares>
+    </sharesCollection>
+    <sharesCollection symbol="GGLE">
+        <companyname>Google</companyname>
+        <shareAmount>1493</shareAmount>
+        <shares>
+            <Price>893.22</Price>
+            <currency>USD</currency>
+        </shares>
+    </sharesCollection>
+    <sharesCollection symbol="Tkstr">
+        <companyname>TeckStar</companyname>
+        <shareAmount>200</shareAmount>
+        <shares>
+            <Price>49.22</Price>
+            <last-update>2018-12-10Z</last-update>
+            <currency>AED</currency>
+        </shares>
+    </sharesCollection>
+    <sharesCollection symbol="LLDs">
+        <companyname>lloyds Banking</companyname>
+        <shareAmount>2100</shareAmount>
+        <shares>
+            <Price>130.23</Price>
+            <currency>RON</currency>
+        </shares>
+    </sharesCollection>
+    <sharesCollection symbol="SMG">
+        <companyname>Samsung Group</companyname>
+        <shareAmount>3000</shareAmount>
+        <shares>
+            <Price>370.54</Price>
+            <currency>EGP</currency>
+        </shares>
+    </sharesCollection>
+    <sharesCollection symbol="SBC">
+        <companyname>SABIC</companyname>
+        <shareAmount>1100</shareAmount>
+        <shares>
+            <Price>600.32</Price>
+            <currency>TRY</currency>
+        </shares>
+    </sharesCollection>
+</Available_Shares>
